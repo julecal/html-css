@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript</title>
 </head>
+<style>
+    body {
+        background-color: lightgray;
+    }
+</style>
 <body>
     <a href="#"onclick="clicou()">Clique em mim</a>
-
+    <div id="saida"></div>
+    
+    
     <script>
         function clicou() {
             s = window.document.getElementById("saída")
-            s.innerhtml += '<p>Você clicou</p>
-            referrerpolicy="no-referrer" sandbox="sandbox"
+            s.innerHTML += '<p>Você clicou</p>'
         }
     </script>
 </body>
