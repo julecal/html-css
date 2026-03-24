@@ -26,8 +26,9 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.616);
 }
 
 header > nav {
@@ -61,4 +62,9 @@ main {
     border-radius: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.479); 
 }
+
+@media screen and () {
+    
+}
+
 
